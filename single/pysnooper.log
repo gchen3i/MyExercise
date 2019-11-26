@@ -1,0 +1,26 @@
+Starting var:.. number = 6
+09:38:14.797130 call         4 def number_to_bits(number):
+09:38:14.797437 line         5     if number:
+09:38:14.797663 line         6         bits = []
+New var:....... bits = []
+09:38:14.797953 line         7         while number:
+09:38:14.798094 line         8             number,remainder = divmod(number,2)
+New var:....... remainder = 0
+Modified var:.. number = 3
+09:38:14.798778 line         9             bits.insert(0,remainder)
+Modified var:.. bits = [0]
+09:38:14.799000 line         7         while number:
+09:38:14.799118 line         8             number,remainder = divmod(number,2)
+Modified var:.. number = 1
+Modified var:.. remainder = 1
+09:38:14.799417 line         9             bits.insert(0,remainder)
+Modified var:.. bits = [1, 0]
+09:38:14.799621 line         7         while number:
+09:38:14.799735 line         8             number,remainder = divmod(number,2)
+Modified var:.. number = 0
+09:38:14.800048 line         9             bits.insert(0,remainder)
+Modified var:.. bits = [1, 1, 0]
+09:38:14.800385 line         7         while number:
+09:38:14.800635 line        10         return bits
+09:38:14.800757 return      10         return bits
+Return value:.. [1, 1, 0]
