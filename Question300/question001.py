@@ -20,7 +20,7 @@ class Solution:
 
 
 if __name__ == '__main__':
-    n = 10003
+    n = 24
     print('初始值:', n)
     solution = Solution()
     print('结果:', solution.numSquares(n))
